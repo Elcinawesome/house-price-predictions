@@ -1,3 +1,4 @@
+import pyspark
 from pyspark import SparkConf,SparkContext
 from pyspark.sql import SparkSession
 spark=SparkSession.builder.appName('housing_price_model').getOrCreate()
